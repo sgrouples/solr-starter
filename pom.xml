@@ -18,4 +18,12 @@
       <scope>provided</scope>
     </dependency>
   </dependencies>
+
+  <distributionManagement>
+    <repository>
+      <id>sgrouples.repo</id>
+      <name>Sgrouples Repository</name>
+      <url>https://nexus.groupl.es/repository/maven-releases/</url>
+    </repository>
+  </distributionManagement>
 </project>
